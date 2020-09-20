@@ -10,12 +10,12 @@ def nyc_pigeon_organizer(data)
     values.each do |key2, value2|
       name_array.each do |name|
         key2.has_value?(name)
-        data.replace{name=>{key=>key2}}
+        data.replace({ name => { key => key2 }})
       end
     end
   end
 end
-end
+
 
 
 
