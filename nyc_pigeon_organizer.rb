@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   end
   name_array.uniq!
   data.each do |key, value|
-    values.each do |key2, value2|
+    value.each do |key2, value2|
       name_array.each do |name|
         key2.has_value?(name)
         data.replace({ name => { key => key2 }})
