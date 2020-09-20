@@ -15,22 +15,3 @@ def nyc_pigeon_organizer(data)
     end
   end
 end
-
-
-
-
-
-
-  Peter Jr.
-
-  Lucky
-
-  Ms. K
-
-  Queenie
-
-  Andrew
-
-  Alex
-
-end
