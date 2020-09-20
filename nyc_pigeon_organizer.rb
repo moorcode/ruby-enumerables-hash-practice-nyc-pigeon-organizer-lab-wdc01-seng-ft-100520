@@ -1,3 +1,4 @@
+require 'pry'
 def nyc_pigeon_organizer(data)
   name_array = []
   data.each do |key, value|
@@ -10,6 +11,7 @@ def nyc_pigeon_organizer(data)
     value.each do |key2, value2|
       name_array.each do |name|
         key2.has_value?(name.to_s)
+        binding.pry
         data.replace({ name => { key => key2 }})
       end
     end
