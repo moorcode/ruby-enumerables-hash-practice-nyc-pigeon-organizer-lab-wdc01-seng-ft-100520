@@ -1,9 +1,4 @@
 def nyc_pigeon_organizer(data)
-#:color data[key1]
-# :purple data[key2]  :grey data[key2]
-# Theo data[key2][value1]
-
-
 name_array = []
 data.each do |key, value|
   values.each do |key2, value2|
